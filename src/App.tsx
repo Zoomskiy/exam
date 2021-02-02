@@ -10,11 +10,11 @@ function App() {
 
     function groupCallback(action: string ) {
         if (action === "increment") {
-            if (value == 0) setValue(1)
-            else if (value == 1) setValue(2)
-            else if (value == 2) setValue(3)
-            else if (value == 3) setValue(4)
-            else if (value == 4) setValue(5)
+            if (value === 0) setValue(1)
+            else if (value === 1) setValue(2)
+            else if (value === 2) setValue(3)
+            else if (value === 3) setValue(4)
+            else if (value === 4) setValue(5)
         }
         else setValue(0)
     }
